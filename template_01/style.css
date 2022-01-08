@@ -94,6 +94,8 @@ header ul li a.active {
   object-fit: contain;
   margin-left: 50px;
 }
+
+/* WAVE START */
 .wave {
   background-color: red;
   height: 70px;
