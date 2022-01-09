@@ -7,11 +7,20 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: white;
   overflow-x: hidden;
+}
+
+.github {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  z-index: 1;
 }
 
 /* HEADER */
@@ -161,15 +170,29 @@ header ul li a.active {
   width: 200px;
 }
 
-.container_p {
+.container_p1 {
   display: flex;
 }
 
-.container_p .img1 {
+.container_p1 .img1 {
   margin-right: 10px;
 }
 
-.container_p p {
+.container_p1 p {
+  align-self: center;
+  flex: 1;
+}
+
+.container_p2 {
+  display: flex;
+  margin-top: 50px;
+}
+
+.container_p2 .img1 {
+  margin-right: 10px;
+}
+
+.container_p2 p {
   align-self: center;
   flex: 1;
 }
@@ -182,4 +205,10 @@ footer {
   text-align: center;
   color: #fff;
   height: 10vh;
+}
+
+.separator {
+  width: 100%;
+  margin: 15px 0 0;
+  border: #0000008f 1px solid;
 }
